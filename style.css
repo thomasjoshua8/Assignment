@@ -1,0 +1,48 @@
+body{
+  background-color: beige
+}
+img{
+   height:50%;
+   width:100%;
+   float:left;
+   margin-b
+}
+.h1{
+   margin-bottom:10%;
+   font-size:350%;
+   text-align:center;
+}
+li a {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: underline;
+}
+li a.active {
+background-color: rgb(50, 47, 211);
+color: rgb(248, 246, 246);
+}
+li a:hover:not(.active) {
+background-color: rgb(80, 77, 77);
+color: white;
+}
+h1, h2{
+  font-family: sans-serif;
+  text-align: center;
+}
+.divTableFoot {
+	background-color: rgb(216, 219, 168);
+	display: table-footer-group;
+	font-weight: bold;
+}
+footer {
+text-align: center;
+padding: 3px;
+background-color: rgb(241, 64, 52);
+color: white;
+}
+.main{
+   padding:2%;
+   margin-left:10%;
+   margin-top:-6%;
+}
